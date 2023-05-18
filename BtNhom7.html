@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./BtNhom7.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="m-5 border border-1" >
+            <p>Bài 1
+        Viết một function để tìm số nhỏ trong mảng một chiều
+        Input: Mảng một chiều các số nguyên
+        Output: Giá trị nhỏ nhất của mảng</p>
+        <label for="arr"></label>
+        <input type="text" id="arr">
+        <input id="btn" type="button" value="ketqua">
+        <div id="maxNum"></div>
+        </div>
+        
+        <div class="m-5 border border-1">
+            <p>bài 2
+            Viết một function  , chèn phần tử vào một vị trí bất kì trong mảng
+        Input: 
+        + array: mảng cần chèn
+        + position: vị trí chèn
+        + value: giá trị chèn
+        Output: mảng mới với giá trị đã được chèn vào
+        </p>
+        <label for="mang-2"> nhập giá trị mảng cần chèn</label>
+        <input type="text" id="mang-2">
+        <label for="num-2">nhập vị trí chèn</label>
+        <input type="number" id="num-2">
+        <label for="value-2"> nhập giá trị cần chèn</label>
+        <input type="text" id="value-2">
+        <input type="button" id="bt" value="kết quả">
+        <div id="mangNew">
+            <span>mảng mới là: </span>
+        </div>
+        </div>
+        
+        <div class="m-5 border border-1">
+             <p> Bài 3
+        Viết một function, với dữ liệu đầu vào là một mảng một chiều 
+        ⇒ trả về một mảng mới bao gồm kiểu dữ liệu(data type) của từng phẩn tử trong mảng
+        Cách lấy datatype của một biến: // typeof(variable) => kieu du lieu 
+        </p> 
+        <label for="mang3">nhập các giá trị mảng một chiều</label>
+        <input type="text" id="mang3">
+        <input type="button" id="btn3" value="kiểu dữ kiệu các phần tử">
+        <div id="val"></div>
+        </div>
+       
+        <div class="m-5 border border-1">
+                    <p>bài 4 
+                Viết một hàm, kết quả trả về là một mảng 
+        bao gồm các phần tử khác biệt từ 2 mảng cho trước
+        // tìm thấy finNumber => return vị trí index tìm thấy
+        // tìm không thấy => return -1
+            </p>
+            <label for="mang1">nhập giá trị mảng 1</label>
+            <input type="text" id="mang1">
+            <label for="mang2">nhập giá trị mảng 2</label>
+            <input type="text" id="mang2">
+            <input type="button" id="ghep" value="ghep">
+            <div id="mang-ghep"></div>
+        </div>
+    
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./BtNhom7.js"></script>
+
+</body>
+</html>
